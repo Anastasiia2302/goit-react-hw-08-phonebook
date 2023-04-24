@@ -4,7 +4,7 @@ import ContactList from './Contacts/Contacts';
 import { Container, Title } from './PhoneBook.styled';
 import { useDispatch, useSelector } from "react-redux";
 import { useEffect } from "react";
-import { fetchContacts } from 'redux/operations';
+import { fetchContacts } from 'redux/auth/operations';
 import { getError, getIsLoading } from 'redux/selectors';
 
 

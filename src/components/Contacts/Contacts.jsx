@@ -1,6 +1,6 @@
 import { BtnDel, Item, List, Name } from 'components/PhoneBook.styled';
 import { useSelector, useDispatch } from 'react-redux';
-import { deleteContact } from 'redux/operations';
+import { deleteContact } from 'redux/auth/operations';
 import { getContacts, getStatusFilter } from 'redux/selectors';
 
 
