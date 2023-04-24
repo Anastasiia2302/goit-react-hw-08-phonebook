@@ -11,7 +11,8 @@ import {
   Wrap,
 } from 'components/PhoneBook.styled';
 import { useDispatch } from 'react-redux';
-import { addContact } from 'redux/auth/operations';
+import { addContact } from 'redux/contacts/operations';
+
 
 
 

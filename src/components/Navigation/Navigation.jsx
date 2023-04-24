@@ -1,5 +1,6 @@
+import { useAuth } from 'components/hooks';
 import { NavLink } from 'react-router-dom';
-import { useAuth } from 'hooks';
+
 
 
 export const Navigation = () => {
@@ -11,7 +12,7 @@ export const Navigation = () => {
         Home
       </NavLink>
       {isLoggedIn && (
-        <NavLink  to="/tasks">
+        <NavLink  to="/contacts">
           Tasks
         </NavLink>
       )}

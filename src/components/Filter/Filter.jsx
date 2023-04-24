@@ -1,6 +1,6 @@
 import { FilterInput, FilterLabel, WrapFilter } from 'components/PhoneBook.styled';
 import { useDispatch } from 'react-redux';
-import  { filterContacts } from 'redux/auth/filterSlice';
+import  { filterContacts } from 'redux/contacts/filterSlice';
 
 export default function Filter() {
   const dispatch = useDispatch();
