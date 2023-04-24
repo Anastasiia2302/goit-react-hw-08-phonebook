@@ -3,6 +3,7 @@ import { UserMenu } from '../UserMenu/UserMenu';
 import { AuthNav } from '../AuthNav/AuthNav';
 import { Header } from './AppBar.styled';
 import { useAuth } from 'components/hooks';
+import { Container } from 'components/PhoneBook.styled';
 
 
 
@@ -11,8 +12,10 @@ export const AppBar = () => {
   
     return (
       <Header>
+        <Container>
         <Navigation />
         {isLoggedIn ? <UserMenu /> : <AuthNav />}
+        </Container>
       </Header>
     );
   };
