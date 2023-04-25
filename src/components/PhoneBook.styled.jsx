@@ -8,6 +8,9 @@ export const Container = styled.div`
   width: 600px;
   background-color: beige;
   border: solid 3px black;
+  display:flex;
+  justify-content: space-between;
+  
 `;
 
 export const Title = styled.h2`
