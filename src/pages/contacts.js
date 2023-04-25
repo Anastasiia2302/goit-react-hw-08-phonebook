@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import Phonebook from 'components/Phonebook/Phonebook';
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectLoading } from 'redux/contacts/selectors';
+import ContactList from 'components/Contacts/Contacts';
 
 
 export default function Contacts() {
@@ -18,8 +19,9 @@ export default function Contacts() {
     <>
       
       <Phonebook />
+      <ContactList />
       <div>{isLoading && 'Request in progress...'}</div>
-      <Phonebook />
+      
     </>
   );
 }
