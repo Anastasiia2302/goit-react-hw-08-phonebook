@@ -16,7 +16,7 @@ export default function ContactList() {
       );
       
   };
-  console.log(contacts)
+ 
   return (
     <>
      <List>
