@@ -2,6 +2,7 @@ import { createSlice } from '@reduxjs/toolkit';
 import { logOut } from 'redux/auth/operations';
 import { addContact, deleteContact, fetchContacts } from './operations';
 
+
 const initialState = {
   items: [],
   isLoading: false,

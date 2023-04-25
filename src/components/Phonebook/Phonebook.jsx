@@ -20,13 +20,13 @@ const nanoid = customAlphabet('1234567890', 3);
 
 const schema = Yup.object().shape({
   name: Yup.string().min(2).max(70).required(),
-  phone: Yup.string().min(4).required(),
+  number: Yup.string().min(4).required(),
 });
 
 const initialValues = {
   id: '',
   name: '',
-  phone: '',
+  number: '',
 };
 
 export default function Phonebook() {
@@ -37,7 +37,7 @@ export default function Phonebook() {
     const newContact = {
       id: 'id' + nanoid(),
       name: values.name,
-      phone: values.phone,
+      number: values.number,
     };
     dispatch(addContact(newContact));
     resetForm();
@@ -57,9 +57,9 @@ export default function Phonebook() {
         </Wrap>
 
         <Wrap>
-          <Label htmlFor="phone">Number</Label>
-          <Input name="phone" type="tel" id="phone" />
-          <ErrorMes name="phone" component="div"></ErrorMes>
+          <Label htmlFor="number">Number</Label>
+          <Input name="number" type="tel" id="number" />
+          <ErrorMes name="number" component="div"></ErrorMes>
         </Wrap>
         <Btn type="submit">Add contact</Btn>
       </Forma>
