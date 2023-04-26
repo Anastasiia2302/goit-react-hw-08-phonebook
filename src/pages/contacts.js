@@ -4,6 +4,8 @@ import Phonebook from 'components/Phonebook/Phonebook';
 import { fetchContacts } from 'redux/contacts/operations';
 import { selectLoading } from 'redux/contacts/selectors';
 import ContactList from 'components/Contacts/Contacts';
+import Filter from 'components/Filter/Filter';
+import { Container } from 'components/PhoneBook.styled';
 
 
 export default function Contacts() {
@@ -17,10 +19,13 @@ export default function Contacts() {
 
   return (
     <>
-      
+      <Container>
       <Phonebook />
+      <Filter />
       <ContactList />
-      <div>{isLoading && 'Request in progress...'}</div>
+      </Container>
+     
+
       
     </>
   );

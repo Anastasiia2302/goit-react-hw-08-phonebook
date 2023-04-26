@@ -1,3 +1,4 @@
+import { Container } from 'components/PhoneBook.styled';
 import { useDispatch } from 'react-redux';
 import { register } from 'redux/auth/operations';
 
@@ -19,6 +20,7 @@ export const RegisterForm = () => {
   };
 
   return (
+    <Container>
     <form onSubmit={handleSubmit} autoComplete="off">
       <label>
         Username
@@ -34,5 +36,6 @@ export const RegisterForm = () => {
       </label>
       <button type="submit">Register</button>
     </form>
+    </Container>
   );
 };

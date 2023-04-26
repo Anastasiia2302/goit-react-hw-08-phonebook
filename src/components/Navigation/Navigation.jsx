@@ -2,11 +2,11 @@ import { useAuth } from 'components/hooks';
 import { NavLink } from 'react-router-dom';
 
 
-
 export const Navigation = () => {
   const { isLoggedIn } = useAuth();
 
   return (
+   
     <nav>
       <NavLink  to="/">
         Home
@@ -17,5 +17,6 @@ export const Navigation = () => {
         </NavLink>
       )}
     </nav>
+  
   );
 };

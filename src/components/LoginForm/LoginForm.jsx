@@ -1,3 +1,4 @@
+import { Container } from 'components/PhoneBook.styled';
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
 
@@ -18,6 +19,7 @@ export const LoginForm = () => {
   };
 
   return (
+    <Container>
     <form onSubmit={handleSubmit} autoComplete="off">
       <label >
         Email
@@ -29,5 +31,6 @@ export const LoginForm = () => {
       </label>
       <button type="submit">Log In</button>
     </form>
+    </Container>
   );
 };
