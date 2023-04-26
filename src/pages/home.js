@@ -5,7 +5,7 @@ export default function home() {
     <Container>
       
       <h1>Phonebook</h1>
-      <img src='../src/Image/4298345.png' alt="phone" width='200px' />
+      <img src={require('../Image/4298345.png')} alt="phone" width='400px' />
     </Container>
     
   );

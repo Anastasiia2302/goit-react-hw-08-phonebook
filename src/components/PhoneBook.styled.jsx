@@ -3,19 +3,18 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   margin: 0 auto;
-  margin-top:10px;
-  margin-bottom:10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   width: 600px;
   background-color: beige;
   border: solid 3px black;
- padding:10px;
-  
+  padding: 10px;
 `;
 
 export const Title = styled.h2`
   font-size: 24px;
-  margin-left:10px;
-  margin-bottom:0;
+  margin-left: 10px;
+  margin-bottom: 0;
 `;
 
 export const Forma = styled(Form)`
@@ -30,7 +29,8 @@ export const Wrap = styled.div`
 `;
 export const Label = styled.label`
   font-size: 22px;
-  margin-top:10px;
+  margin-top: 10px;
+  flex-direction: column;
 `;
 
 export const Input = styled(Field)`
@@ -97,7 +97,7 @@ export const Name = styled.span`
   &:first-child {
     margin-right: 15px;
   }
-  
+
   font-size: 16px;
   font-weight: 600;
 `;
@@ -110,4 +110,19 @@ export const BtnDel = styled.button`
   font-size: 12px;
   border-radius: 3px;
   cursor: pointer;
+`;
+export const InputReg = styled.input`
+  border: 3px solid black;
+  padding: 10px;
+  background-color: rgb(95, 158, 160);
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+`;
+export const FormReg = styled.div`
+  text-align: center;
 `;

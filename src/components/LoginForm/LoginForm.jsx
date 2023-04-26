@@ -1,7 +1,13 @@
-import { Container } from 'components/PhoneBook.styled';
+import {
+  Btn,
+  Container,
+  FormReg,
+  InputReg,
+  Label,
+} from 'components/PhoneBook.styled';
+
 import { useDispatch } from 'react-redux';
 import { logIn } from 'redux/auth/operations';
-
 
 export const LoginForm = () => {
   const dispatch = useDispatch();
@@ -20,17 +26,19 @@ export const LoginForm = () => {
 
   return (
     <Container>
-    <form onSubmit={handleSubmit} autoComplete="off">
-      <label >
-        Email
-        <input type="email" name="email" />
-      </label>
-      <label >
-        Password
-        <input type="password" name="password" />
-      </label>
-      <button type="submit">Log In</button>
-    </form>
+      <FormReg>
+        <form onSubmit={handleSubmit} autoComplete="off">
+          <Label>
+            Email
+            <InputReg type="email" name="email" />
+          </Label>
+          <Label>
+            Password
+            <InputReg type="password" name="password" />
+          </Label>
+          <Btn type="submit">Log In</Btn>
+        </form>
+      </FormReg>
     </Container>
   );
 };

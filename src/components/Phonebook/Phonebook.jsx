@@ -13,9 +13,6 @@ import {
 import { useDispatch } from 'react-redux';
 import { addContact } from 'redux/contacts/operations';
 
-
-
-
 const nanoid = customAlphabet('1234567890', 3);
 
 const schema = Yup.object().shape({
@@ -31,7 +28,6 @@ const initialValues = {
 
 export default function Phonebook() {
   const dispatch = useDispatch();
-  
 
   const handleSubmit = (values, { resetForm }) => {
     const newContact = {
