@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/goit-react-hw-08-phonebook/static/css/main.20f6c6c7.css",
-    "main.js": "/goit-react-hw-08-phonebook/static/js/main.377fb48e.js",
+    "main.js": "/goit-react-hw-08-phonebook/static/js/main.9343b54e.js",
     "static/js/26.35af4383.chunk.js": "/goit-react-hw-08-phonebook/static/js/26.35af4383.chunk.js",
-    "static/js/757.60674ebf.chunk.js": "/goit-react-hw-08-phonebook/static/js/757.60674ebf.chunk.js",
+    "static/js/757.a3916b76.chunk.js": "/goit-react-hw-08-phonebook/static/js/757.a3916b76.chunk.js",
     "static/js/615.1ce8fd91.chunk.js": "/goit-react-hw-08-phonebook/static/js/615.1ce8fd91.chunk.js",
     "static/js/592.763e4f61.chunk.js": "/goit-react-hw-08-phonebook/static/js/592.763e4f61.chunk.js",
     "static/js/270.ed8f73c4.chunk.js": "/goit-react-hw-08-phonebook/static/js/270.ed8f73c4.chunk.js",
@@ -12,9 +12,9 @@
     "static/media/4298345.png": "/goit-react-hw-08-phonebook/static/media/4298345.62c114f8233f1c1d12dd.png",
     "index.html": "/goit-react-hw-08-phonebook/index.html",
     "main.20f6c6c7.css.map": "/goit-react-hw-08-phonebook/static/css/main.20f6c6c7.css.map",
-    "main.377fb48e.js.map": "/goit-react-hw-08-phonebook/static/js/main.377fb48e.js.map",
+    "main.9343b54e.js.map": "/goit-react-hw-08-phonebook/static/js/main.9343b54e.js.map",
     "26.35af4383.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/26.35af4383.chunk.js.map",
-    "757.60674ebf.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/757.60674ebf.chunk.js.map",
+    "757.a3916b76.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/757.a3916b76.chunk.js.map",
     "615.1ce8fd91.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/615.1ce8fd91.chunk.js.map",
     "592.763e4f61.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/592.763e4f61.chunk.js.map",
     "270.ed8f73c4.chunk.js.map": "/goit-react-hw-08-phonebook/static/js/270.ed8f73c4.chunk.js.map",
@@ -23,6 +23,6 @@
   },
   "entrypoints": [
     "static/css/main.20f6c6c7.css",
-    "static/js/main.377fb48e.js"
+    "static/js/main.9343b54e.js"
   ]
 }
