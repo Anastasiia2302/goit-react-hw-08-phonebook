@@ -30,7 +30,7 @@ export const LoginForm = () => {
         <form onSubmit={handleSubmit} autoComplete="off">
           <Label>
             Email
-            <InputReg type="email" name="email" />
+           <InputReg type="email" name="email" />
           </Label>
           <Label>
             Password

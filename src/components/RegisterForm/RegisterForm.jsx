@@ -38,7 +38,7 @@ export const RegisterForm = () => {
           </Label>
           <Label>
             Password
-            <InputReg type="password" name="password" />
+          <InputReg type="password" name="password" minLength='7'  />
           </Label>
           <Btn type="submit">Register</Btn>
         </form>
