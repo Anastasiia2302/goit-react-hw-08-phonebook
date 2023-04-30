@@ -1,6 +1,5 @@
 import { Formik } from 'formik';
 import * as Yup from 'yup';
-import { customAlphabet } from 'nanoid';
 
 import {
   Btn,
@@ -12,8 +11,6 @@ import {
 } from 'components/PhoneBook.styled';
 import { useDispatch } from 'react-redux';
 import { addContact } from 'redux/contacts/operations';
-
-const nanoid = customAlphabet('1234567890', 3);
 
 const schema = Yup.object().shape({
   name: Yup.string().min(2).max(70).required(),
@@ -31,7 +28,7 @@ export default function Phonebook() {
 
   const handleSubmit = (values, { resetForm }) => {
     const newContact = {
-      id: 'id' + nanoid(),
+      id: 'id',
       name: values.name,
       number: values.number,
     };
